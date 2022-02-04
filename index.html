@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" ></script>
     <title>ME ACHA! - Desafio 02 - JS</title>
@@ -14,21 +15,19 @@
 
 <body>
     <header>
-        <div>
-            <div id="titulo">
-                <h1>ME ACHA!</h1>
-                <p>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</p>
-            </div>
-            <figure>
-                <img id="img" src="./img/travel_explore_black_24dp.svg" alt="travel explore">
-            </figure>
+        <h1>ME ACHA !</h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        <div id="divicone">
+            <span id="icone" class="material-icons">
+            travel_explore
+            </span>
         </div>
     </header>
     <main>
         
         <form name="CEP">
             <label>CEP</label>
-            <input type="text" name="Cep" value="" id="cep" placeholder="Digite seu CEP">
+            <input type="text" name="Cep" value="" id="cep" placeholder="Informe o CEP">
             <label>Rua</label>
             <input type="text" name="Rua" value=""  id="logradouro" disabled>
             <label>Bairro</label>

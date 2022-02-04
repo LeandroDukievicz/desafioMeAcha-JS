@@ -9,12 +9,16 @@
 header{
     width: 100%;
     height: 200px;
-    background:linear-gradient(to left ,#3D5AFE,#2196F3,#0D47A1);
-    color: white;
+    background:linear-gradient(60deg,#2196F3,#0D47A1,#3D5AFE 63%);
+    color:#fff;
+    text-align: center;
+
 }
+
 div{
     text-align: center;
 }
+
 #titulo{
     padding-top:30px;
 }
@@ -23,7 +27,7 @@ form{
     width: 35vw;
     height: auto;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 65px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -40,21 +44,33 @@ input{
     border-radius: 3px;
     color: black;
 }
+
+#icone{
+   
+    padding: 15px;    
+    font-size: 64px;
+    color:#2196F3;
+    cursor: pointer;
+}
+
+#divicone{
+    width: 7vw;
+    height: 15vh;
+  
+    background-color:#fff ;
+    border-radius: 100%;
+    margin-top: 14vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #button{
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 2px;
     border-radius: 4px;
     background: #2196F3;
     border-bottom: 4px solid #0D47A1;
     color: white;
     cursor: pointer;
 }
-#img{
-    padding: 10px;
-    background-color: white;
-    border-radius: 50px;
-    width: 80px;
-    margin-top: 70px;
-}
-
